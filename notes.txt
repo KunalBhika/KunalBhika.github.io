@@ -1,1 +1,4 @@
+# color codes
 Green color : #7bf700
+Background color : #373543 (lighter one)
+Background color : #2c2c38 (darker one)
