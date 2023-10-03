@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <!-- Header Section Starts Here -->
     <div id="header">
         <div class="container">
             <nav>
@@ -57,6 +57,49 @@
         </div>
     </div>
 
+    <!-- About Section Starts Here -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/kunal-about.jpg" alt="kunal">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quibusdam ducimus porro quos aspernatur vel voluptatem aliquid dolorem, laudantium fugit error at expedita magnam eveniet. Ipsa deleniti doloribus molestias nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et saepe unde dolorum molestias, nesciunt adipisci quia consequuntur modi! Sequi magnam enim sapiente officiis voluptas sit commodi dolore non reiciendis libero?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Developing Websites and Web App</li>
+                            <li><span>Graphic Designing</span><br>Designing graphics from scratch</li>
+                            <li><span>Photography</span><br>Designing graphics from scratch</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Technical Mentor (2022 - 2023)</span><br>InternWare Internship Cell of IITM , Janakpuri</li>
+                            <li><span>Web Developer (Internship)</span><br>Dynamisers Solutions</li>
+                            <li><span>Web Developer (Internship)</span><br>JugaadHai</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Class 10th Boards</span><br>Sant Nirankari Public School , affiliated to CBSE<br>Secured : 73.5%</li>
+                            <li><span>Class 12th Boards</span><br>Sant Nirankari Public School , affiliated to CBSE<br>Secured : 89%</li>
+                            <li><span>Bachelors of Computer Applications (BCA)</span><br>Delhi Global Institute of Technology , affiliated to MDU <br>Secured : 73% (Grand total)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
