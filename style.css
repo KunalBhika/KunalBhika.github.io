@@ -366,3 +366,17 @@ form .btn2 {
     font-size: 18px;
     cursor: pointer;
 }
+
+/* copyright section */
+.copyright {
+    background-color: #373543;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+}
+
+.copyright i {
+    color: #7bf700;
+    
+}
