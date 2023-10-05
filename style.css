@@ -300,7 +300,7 @@ nav ul li a:hover::after {
 
 /* contact me section */
 #contact {
-    background-color: #2c2c38;
+    background-color: #373543;
 }
 
 .contact-left {
@@ -352,7 +352,7 @@ form input, form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #373543;
+    background: #2c2c38;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -369,7 +369,7 @@ form .btn2 {
 
 /* copyright section */
 .copyright {
-    background-color: #373543;
+    background-color: #2c2c38;
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -379,4 +379,25 @@ form .btn2 {
 .copyright i {
     color: #7bf700;
     
+}
+
+/* testimonial section */
+#testimonials {
+    background-color: #2c2c38;
+    padding: 50px 0;
+}
+
+.testimonial-col-1 img {
+    width: 35%;
+}
+
+.testimonial-col-2 {
+    flex-basis: 60%;
+}
+
+#testimonials .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
