@@ -388,11 +388,7 @@ form .btn2 {
 }
 
 .testimonial-col-1 img {
-    width: 35%;
-}
-
-.testimonial-col-2 {
-    flex-basis: 60%;
+    width: 90%;
 }
 
 #testimonials .row {
@@ -400,4 +396,85 @@ form .btn2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.testimonial-col-1 {
+    display: flex;
+    flex-basis: 38%;
+}
+
+.testimonial-col-2 {
+    flex-basis: 60%;
+}
+
+.testimonial-col-2 i{
+    font-size: 40px !important;
+    color: #7bf700;
+}
+
+.small-span {
+    font-size: 15px;
+}
+
+.testimonial-col-2 p {
+    margin-top: 15px;
+}
+
+.testimonial-col-2 h2 {
+    margin-top: 20px;
+}
+
+.testimonial-col-2 h1 {
+    color: #7bf700;
+}
+
+.slider-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.slider-button-container .prev-slider {
+    margin-left: 60px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #7bf700;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slider-button-container .next-slider {
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #7bf700;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slider-button-container .next-slider i:hover {
+    background: #7bf700;
+    color: #2c2c38;
+    border-radius: 50%;
+}
+
+.slider-button-container .prev-slider i:hover {
+    background: #7bf700;
+    color: #2c2c38;
+    border-radius: 50%;
+}
+
+.slider-button-container .next-slider:hover {
+    background: #7bf700;
+    color: #2c2c38;
+}
+
+.slider-button-container .prev-slider:hover {
+    background: #7bf700;
+    color: #2c2c38;
 }
