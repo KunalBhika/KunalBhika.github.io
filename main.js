@@ -18,20 +18,49 @@ const opentab = (tabname) => {
 
 // Testimonials Section
 var slider_img = document.querySelector(".slider-img");
-var images = ['./images/kunal.jpg' , './images/kunal-about.jpg'];
+var review = document.querySelector(".myReview");
 var reviewCount = document.querySelector(".large-span");
+var names = document.querySelector(".name-title");
+var designations = document.querySelector(".designation");
+
+var images = ['./images/kunal.jpg' , './images/kunal-about.jpg'];
+var testiParas = [
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, harum quia. Consectetur sit at culpa, laboriosam illum dolores iure corporis cumque ullam, provident ab delectus, enim placeat ipsa sequi consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium esse consequuntur maxime totam facilis libero saepe aut ipsam doloribus sint veritatis enim fugit quaerat, minus rerum ipsa quidem doloremque iure." ,
+
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem totam, dolores delectus facere omnis cum, sit harum cumque illo aliquid nesciunt corporis rem minus deserunt tempore, ullam dignissimos nemo modi voluptate ipsam labore fugit doloremque. Error animi explicabo suscipit totam voluptate voluptatum iusto fugit reiciendis, facilis quibusdam nulla ipsum?"
+]
+var testiNames = ["Sumit Prasad" , "Manas Ratan"];
+var testiDesig = ["SEO Expert @ Yahoo.com" , "SDE @ Apple.inc"];
+
 var i = 0;   // Current image
+
+// initail testimonial
+slider_img.setAttribute('src' , images[i]);
+review.innerHTML = `${testiParas[i]}`;
+names.innerHTML = `${testiNames[i]}`;
+reviewCount.innerHTML = `0${i+1}`;
+designations.innerHTML = `${testiDesig[i]}`;
 
 const nextReview = () => {
     if(i == images.length-1)
         i = -1;
-    slider_img.setAttribute('src' , images[++i]);
+    
+    i++;
+    slider_img.setAttribute('src' , images[i]);
+    review.innerHTML = `${testiParas[i]}`;
+    names.innerHTML = `${testiNames[i]}`;
     reviewCount.innerHTML = `0${i+1}`;
+    designations.innerHTML = `${testiDesig[i]}`;
 }
 
 const prevReview = () => {
     if(i == 0)
         i = images.length;
-    slider_img.setAttribute('src' , images[--i]);
+
+    --i;
+    slider_img.setAttribute('src' , images[i]);
+    review.innerHTML = `${testiParas[i]}`;
+    names.innerHTML = `${testiNames[i]}`;
     reviewCount.innerHTML = `0${i+1}`;
+    designations.innerHTML = `${testiDesig[i]}`;
 }
