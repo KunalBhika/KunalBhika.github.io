@@ -16,13 +16,15 @@
         <div class="container">
             <nav>
                 <img src="images/logo.png" alt="logo" id="nav-logo">
-                <ul>
+                <ul id="sideMenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
             <div class="header-text-container">
                 <div class="header-text">
@@ -30,7 +32,7 @@
                         <hr width="155px" color="#7bf700" size="6px">
                     </h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente impedit quisquam voluptatem
-                        nulla velit, voluptatum blanditiis Lorem ipsum dolor sit amet.</p>
+                        nulla velit, voluptatum blanditiis.</p>
                 </div>
                 <div class="header-text-services">
                     <h4>Services</h4>
@@ -46,7 +48,6 @@
         </div>
         <div class="header-skill-set">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="c++">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="c">
             <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="html">
             <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="css">
             <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png" alt="js" style="border-radius: 15px;">
@@ -150,7 +151,7 @@
                     <h6 class="designation" style="font-size: 12px;"></h6>
 
                     <div class="slider-button-container">
-                        <h1><span class="large-span">01</span><span class="small-span">/10</span></h1>
+                        <h1><span class="large-span"></span><span class="small-span">/10</span></h1>
                         <button class="prev-slider" onclick="prevReview()"> < </button>
                         <button class="next-slider" onclick="nextReview()"> > </button>
                     </div>

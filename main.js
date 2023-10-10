@@ -64,3 +64,14 @@ const prevReview = () => {
     reviewCount.innerHTML = `0${i+1}`;
     designations.innerHTML = `${testiDesig[i]}`;
 }
+
+// Phone Navigation button toggle
+var sideMenu = document.getElementById("sideMenu");
+
+const openMenu = () => {
+    sideMenu.style.right = "0"
+}
+
+const closeMenu = () => {
+    sideMenu.style.right = "-200px"
+}
