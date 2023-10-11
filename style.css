@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::selection {
     color: white;
     background: #7bf700;
@@ -558,4 +562,51 @@ nav .fa-solid {
     .header-skill-set img {
         margin: 5px 0;
     }
+
+    .sub-title {
+        font-size: 45px;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .about-col-1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about-col-2 {
+        font-size: 14px;
+    }
+
+    .tab-links {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .testimonial-col-1 {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-col-2 {
+        flex-basis: 100%;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }

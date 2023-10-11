@@ -75,3 +75,28 @@ const openMenu = () => {
 const closeMenu = () => {
     sideMenu.style.right = "-200px"
 }
+
+// Contact form script
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz0xr4B3xKuQqJPhmAQfQXd-qdfkzPRksF93bbicGpfbhZEMijJRh1t_HRXlXvCKjY/exec'
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById('msg');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = `Message sent successfully <i class="fa-solid fa-circle-check"></i>`;
+          setTimeout(() => {
+              msg.innerHTML = "";
+          } , 5000);
+          form.reset();
+      })
+      .catch(error => {
+          msg.style.color = '#c5163d';
+          msg.innerHTML = `Some error occurred. Try Again after sometime <i class="fa-solid fa-circle-xmark"></i>`;
+          setTimeout(() => {
+              msg.innerHTML = "";
+         } , 5000);
+         form.reset();
+      })
+  })
