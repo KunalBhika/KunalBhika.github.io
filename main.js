@@ -23,14 +23,16 @@ var reviewCount = document.querySelector(".large-span");
 var names = document.querySelector(".name-title");
 var designations = document.querySelector(".designation");
 
-var images = ['./images/kunal.jpg' , './images/kunal-about.jpg'];
+var images = ['./images/isha.png' , './images/saloni.png' , './images/hiten.png'];
 var testiParas = [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, harum quia. Consectetur sit at culpa, laboriosam illum dolores iure corporis cumque ullam, provident ab delectus, enim placeat ipsa sequi consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium esse consequuntur maxime totam facilis libero saepe aut ipsam doloribus sint veritatis enim fugit quaerat, minus rerum ipsa quidem doloremque iure." ,
+    "Kunal's dedication and perseverance are remarkable, serving as a shining example to everyone around him. Kunal approaches every task with unwavering determination and commitment, demonstrating a strong work ethic that is truly commendable. His resilience in the face of challenges is admirable, and his ability to stay focused on his goals is truly inspiring. His hard work will not only bring him success but will also motivate others to strive for excellence. He is a testament to the power of diligence and determination, and I feel fortunate to have such a dedicated friend in my life." ,
 
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem totam, dolores delectus facere omnis cum, sit harum cumque illo aliquid nesciunt corporis rem minus deserunt tempore, ullam dignissimos nemo modi voluptate ipsam labore fugit doloremque. Error animi explicabo suscipit totam voluptate voluptatum iusto fugit reiciendis, facilis quibusdam nulla ipsum?"
+    "Kunal Bhika stands as a shining example of talent and excellence. His relentless pursuit of perfection in every task he undertakes, coupled with his unwavering commitment to maintaining impeccable quality, is truly commendable. Whether it's his exceptional photography skills or his extensive knowledge of softwares, Kunal's capabilities are bound to inspire awe, <br>Working alongside Kunal on a team is not only a pleasure but also an enriching experience. His dedication, attention to detail, and ability to consistently deliver outstanding results contribute significantly to the success of any project. Kunal Bhika is undoubtedly a valuable asset in any collaborative endeavor." , 
+
+    "So what to say about you the best man i have ever met in InternWare, My team mentor and now more than my personal mentor, I have literally learned a lot of things from you and have seen such a dedicated person like you, I know that you are ready to help each one of us and that quality is the one i take forward so stay same as you are stay humble i wish you the best for your future. May god bless you always may you make each one of us and your parents proud. Love you!!"
 ]
-var testiNames = ["Sumit Prasad" , "Manas Ratan"];
-var testiDesig = ["SEO Expert @ Yahoo.com" , "SDE @ Apple.inc"];
+var testiNames = ["Isha" , "Saloni Indra" , "Hiten Anand"];
+var testiDesig = ["Business Development Mentor @ InternWare" , "Chief Financial Officer @ InternWare" , "Technical Executive @ InternWare"];
 
 var i = 0;   // Current image
 
