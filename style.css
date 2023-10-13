@@ -499,6 +499,32 @@ nav .fa-solid {
     display: none;
 }
 
+@media only screen and (max-width : 376px) {
+    .header-skill-set {
+        margin: 25% 6% 0% 6% !important;
+    }
+
+    .header-skill-set img {
+        margin: 5px 1px !important;
+    }
+
+    .header-text-services p {
+        font-size: 14px;
+    }
+
+    .header-text p {
+        font-size: 13px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .header-text-services .social-media-icons a {
+        padding: 12px 15px 12px 10px;
+    }
+}
+
 @media only screen and (max-width : 600px) {
     #header {
         background-image: url('./images/background-mobile.png');
@@ -554,7 +580,7 @@ nav .fa-solid {
     }
 
     .header-skill-set {
-        margin: 60% 6% 0% 6%;
+        margin: 56% 6% 0% 6%;
         padding: 5px 30px;
         align-items: center;
     }
