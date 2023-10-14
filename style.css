@@ -240,6 +240,7 @@ nav ul li a:hover::after {
     position: relative;
     overflow: hidden;
     box-shadow: -7px 7px 15px #2c2c38;
+    cursor: pointer;
 }
 
 .work img {
