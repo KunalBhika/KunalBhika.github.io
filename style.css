@@ -502,11 +502,12 @@ nav .fa-solid {
 
 @media only screen and (max-width : 376px) {
     .header-skill-set {
-        margin: 20% 6% 0% 6% !important;
+        margin: 17% 6% 0% 6% !important;
     }
 
     .header-skill-set img {
-        margin: 5px 1px !important;
+        margin: 5px 5px !important;
+        height: 52px;
     }
 
     .header-text-services p {
