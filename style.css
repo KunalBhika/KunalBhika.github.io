@@ -214,6 +214,15 @@ nav ul li a:hover::after {
     font-weight: 600;
 }
 
+.workLinks {
+    text-decoration: none;
+    color: #7bf700;
+}
+
+.workLinks:hover {
+    text-decoration: underline;
+}
+
 .tab-contents {
     display: none;
 }
